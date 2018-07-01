@@ -1,7 +1,7 @@
 FROM quay.io/jcallen/che-fedora-base
 
 EXPOSE 8080 8000 9191
-ENV REQUIRED_PKGS="bzip2 procps python3-pip dnf-plugins-core" \
+ENV REQUIRED_PKGS="bzip2 procps python3-pip dnf-plugins-core origin-clients" \
     OPTIONAL_PKGS="ansible pv python-psycopg2 zsh tmux tmux-powerline vim vim-jedi vim-powerline vim-pysmell vim-syntastic vim-syntastic-python"
 
 USER root
